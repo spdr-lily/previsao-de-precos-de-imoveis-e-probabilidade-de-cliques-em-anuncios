@@ -2,7 +2,7 @@
 
 ### **1\. Introdução**
 
-Este documento detalha o projeto de aplicação de técnicas de regressão linear e logística em dados simulados. O objetivo principal é prever o preço de imóveis com base em suas características e a probabilidade de cliques em anúncios, utilizando regressão linear para a previsão de preços e regressão logística para a probabilidade de cliques. O projeto utiliza dados fictícios para demonstrar a aplicação das técnicas de modelagem preditiva.
+Este projeto, é a realização de uma atividade prática, onde se aplicam técnicas de regressão linear e logística em dados simulados. O objetivo é prever o preço de imóveis com base em suas características e a probabilidade de cliques em anúncios, utilizando regressão linear para a previsão de preços e regressão logística para a probabilidade de cliques. O projeto utiliza dados fictícios para demonstrar a aplicação das técnicas de modelagem preditiva.
 
 ### **2\. Contexto**
 
@@ -26,7 +26,7 @@ O projeto utiliza conjuntos de dados fictícios gerados para simular cenários r
 
 ### **4\. Metodologia**
 
-O projeto foi desenvolvido utilizando a linguagem Python e as bibliotecas `pandas`, `numpy`, `matplotlib`, `seaborn` e `scikit-learn`. A metodologia foi dividida em duas partes:
+O projeto foi desenvolvido em Python e utilizando as bibliotecas pandas, numpy, matplotlib, seaborn e scikit-learn. A metodologia foi dividida em duas partes:
 
 * **Parte 1 (Regressão Linear):**  
   1. Geração de dados fictícios para as variáveis `Numero_Quartos`, `Metragem_Quadrada` e `Preco_Imovel`.  
@@ -46,7 +46,7 @@ O projeto foi desenvolvido utilizando a linguagem Python e as bibliotecas `panda
 A implementação do projeto envolveu as seguintes etapas e funções:
 
 * **5.1 Importação das Bibliotecas:**  
-  * Foram importadas as bibliotecas `pandas` para manipulação de dados, `numpy` para operações numéricas, `matplotlib.pyplot` e `seaborn` para visualização, e `scikit-learn` para modelagem e avaliação.  
+  * Foram importadas as bibliotecas pandas para manipulação de dados, numpy para operações numéricas, matplotlib.pyplot e seaborn para visualização, e scikit-learn para modelagem e avaliação.  
 * **5.2 Geração de Dados Fictícios:**  
   * A função `numpy.random.randint()` foi utilizada para gerar dados aleatórios para as variáveis independentes.  
   * A variável dependente `Preco_Imovel` foi calculada com base em uma fórmula linear com adição de ruído aleatório.  
@@ -66,7 +66,7 @@ A implementação do projeto envolveu as seguintes etapas e funções:
 
 ### **6\. Resultados**
 
-Os principais resultados obtidos com a análise incluem:
+Os resultados obtidos com a análise incluem:
 
 * **Parte 1 (Regressão Linear):**  
   * Erro Médio Quadrático (MSE): Quantifica o erro médio das previsões do modelo.  
